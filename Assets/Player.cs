@@ -30,6 +30,9 @@ public class Player : MonoBehaviour
 		if(Input.GetKeyDown ("f")){
 			GetComponent<AudioSource> ().Play ();
 		}
+		if(Input.GetKeyDown ("t")){
+			Application.LoadLevel(1);
+		}
 
 	}
 

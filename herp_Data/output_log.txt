@@ -1,0 +1,88 @@
+Initialize engine version: 5.2.0f3 (e7947df39b5c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     896 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\david_000\Desktop\LL-Git\LL-Git\herp_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\david_000\Desktop\LL-Git\LL-Git\herp_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\david_000\Desktop\LL-Git\LL-Git\herp_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\david_000\Desktop\LL-Git\LL-Git\herp_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\david_000\Desktop\LL-Git\LL-Git\herp_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\david_000\Desktop\LL-Git\LL-Git\herp_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\david_000\Desktop\LL-Git\LL-Git\herp_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\david_000\Desktop\LL-Git\LL-Git\herp_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\david_000\Desktop\LL-Git\LL-Git\herp_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.571 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\david_000\Desktop\LL-Git\LL-Git\herp_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 46bc -> priority: 1 
+Connected to master server at 67.225.180.24:23466
+ 
+(Filename:  Line: 2501)
+
+Incoming host list query response from master server.
+ 
+(Filename:  Line: 2501)
+
+Incoming host list query response from master server.
+ 
+(Filename:  Line: 2501)
+
+Incoming host list query response from master server.
+ 
+(Filename:  Line: 2501)
+
+Received pong from 192.168.56.1:25000
+ 
+(Filename:  Line: 852)
+
+Running as client. No player ID set yet.
+ 
+(Filename:  Line: 2501)
+
+Received pong from 25.114.166.73:25000
+ 
+(Filename:  Line: 852)
+
+Received pong from 192.168.0.20:25000
+ 
+(Filename:  Line: 852)
+
+Connected to 192.168.56.1:25000
+
+ 
+(Filename:  Line: 2501)
+
+Server Joined
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+playNum is: 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Set player ID to 1
+
+ 
+(Filename:  Line: 2501)
+
+playerNum is: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Allocating view ID AllocatedID: 150.
+
+ 
+(Filename:  Line: 2501)
+
+New scope index 0 is now in scope for AllocatedID: 150
+ 
+(Filename:  Line: 2501)
+

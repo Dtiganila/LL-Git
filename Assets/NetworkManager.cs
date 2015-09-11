@@ -102,4 +102,13 @@ public class NetworkManager : MonoBehaviour {
 		}
 		spawned = true;
 	}
+	void OnLevelWasLoaded(int level)
+	{
+		if (level == 1) {
+			Debug.Log ("OnLevelWasLoaded called");
+			SpawnPlayer(0);
+		}
+		
+	}
+	
 }
