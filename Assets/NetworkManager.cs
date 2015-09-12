@@ -12,6 +12,10 @@ public class NetworkManager : MonoBehaviour {
 	private int playNum;
 	private bool spawned = false;
 
+	public void resetSpawned(){
+		spawned = false;
+	}
+
 	[RPC]
 	void PrintText (string text)
 	{

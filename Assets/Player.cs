@@ -6,8 +6,10 @@ public class Player : MonoBehaviour
 	static private float verticalStop = 0.01f;
 	private float vel;
 	public Vector3 colour;
+	public NetworkManager nm;
 
 	void Start(){
+		nm = (NetworkManager)FindObjectOfType (typeof(NetworkManager));
 		isGrounded = true;
 		Screen.lockCursor = true;
 		if (GetComponent<NetworkView> ().isMine) {
@@ -19,6 +21,10 @@ public class Player : MonoBehaviour
 
 	void Update()
 	{
+		if (Input.GetKeyDown ("t")) {
+			nm.resetSpawned();
+			Application.LoadLevel ("derpderpderpreloaded");
+		}
 		if (GetComponent<NetworkView>().isMine){
 			ChangeColorTo (colour);
 			vel = Mathf.Abs(GetComponent<Rigidbody>().velocity.y);
