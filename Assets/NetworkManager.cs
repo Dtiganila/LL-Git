@@ -106,7 +106,7 @@ public class NetworkManager : MonoBehaviour {
 	{
 		if (level == 1) {
 			Debug.Log ("OnLevelWasLoaded called");
-			SpawnPlayer(0);
+			SpawnPlayer(playNum);
 		}
 		
 	}
